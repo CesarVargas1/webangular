@@ -1,81 +1,95 @@
 .nuestrosproductos .member {
-    margin-bottom: 20px;
-    overflow: hidden;
-    text-align: center;
-    border-radius: 15px;
-    background: #0F173A;
-    box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
-  }
-  
-  .nuestrosproductos .member .member-img {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .nuestrosproductos .member .social {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 40px;
-    opacity: 0;
-    transition: ease-in-out 0.3s;
-    text-align: center;
-    background: #F26225;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .nuestrosproductos .member .social a {
-    transition: color 0.3s;
-    color: #ffffff;
-    margin: 0 10px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .nuestrosproductos .member .social a i {
-    line-height: 0;
-  }
-  
-  .nuestrosproductos .member .social a:hover {
-    color: #f16024;
-  }
-  
-  .nuestrosproductos .member .social i {
-    font-size: 18px;
-    margin: 0 2px;
-  }
-  
-  .nuestrosproductos .member .member-info {
-    padding: 25px 15px;
-  }
-  
-  .nuestrosproductos .member .member-info h4 {
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 18px;
-    color: #fff;
-  }
-  
-  .nuestrosproductos .member .member-info span {
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
-    color: #aaaaaa;
-  }
-  
-  .nuestrosproductos .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 26px;
-    color: #777777;
-  }
-  
-  .nuestrosproductos .member:hover .social {
-    opacity: 5;
-  }
-  
-  
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  border-radius: 15px;
+  background: #0f173a;
+  box-shadow: 0px 2px 15px rgba(65, 76, 100, 0.06);
+}
+
+.nuestrosproductos .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.nuestrosproductos .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  text-align: center;
+  background: #f26225;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuestrosproductos .member .social a {
+  transition: color 0.3s;
+  color: #ffffff;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuestrosproductos .member .social p {
+  transition: color 0.3s;
+  color: #ffffff;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nuestrosproductos .member .social a i {
+  line-height: 0;
+}
+
+.nuestrosproductos .member .social a:hover {
+  color: #0F163A;
+}
+
+
+.nuestrosproductos .member .social p:hover {
+  color: #0F163A;
+}
+.nuestrosproductos .member .social i {
+  font-size: 18px;
+  margin: 0 2px;
+}
+
+.nuestrosproductos .member .member-info {
+  padding: 25px 15px;
+}
+
+.nuestrosproductos .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #414c64;
+  color: #fff;
+}
+
+.nuestrosproductos .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #aaaaaa;
+}
+
+.nuestrosproductos .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #777777;
+}
+
+.nuestrosproductos .member:hover .social {
+  opacity: 5;
+}
