@@ -27,7 +27,11 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              
+
+              "src/assets/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -91,7 +95,10 @@
               
             
             ],
-            "scripts": []
+            "scripts": [
+          
+              "src/assets/js/main.js"
+            ]
           }
         }
       }
