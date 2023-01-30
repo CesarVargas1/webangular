@@ -14,6 +14,7 @@ import { NuestrosproductosComponent } from './nuestrosproductos/nuestrosproducto
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductoselectricosComponent } from './productoselectricos/productoselectricos.component';
+import { BotonsubirComponent } from './components/botonsubir/botonsubir.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProductoselectricosComponent } from './productoselectricos/productosele
     NuestrosproductosComponent,
     NavbarComponent,
     ContactComponent,
-    ProductoselectricosComponent
+    ProductoselectricosComponent,
+    BotonsubirComponent
   ],
   imports: [
     BrowserModule,

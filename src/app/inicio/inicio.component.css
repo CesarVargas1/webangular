@@ -5,8 +5,8 @@
     background-size: cover;
     position: relative;
   }
-  
-  #inicio:before {
+
+#inicio:before {
     content: "";
     background: rgba(45, 53, 69, 0.7);
     position: absolute;
@@ -14,34 +14,35 @@
     top: 0;
     left: 0;
     right: 0;
-  }
-  
-  #inicio .container {
+}
+
+#inicio .container {
     text-align: center;
     padding-top: 50px;
-  }
-  
-  @media (max-width: 992px) {
+}
+/*@media (max-width: 992px)*/
+@media (max-width: 892px) {
     #inicio .container {
-      padding-top: 0;
-    }
-  }
-  
-  #inicio h1 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+           }
+}
+
+#inicio h1 {
     margin: 0;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     color: #fff;
-  }
-  
-  #inicio h2 {
+}
+
+#inicio h2 {
     color: #eee;
     margin: 15px 0 0 0;
     font-size: 22px;
-  }
-  
-  #inicio .btn-get-started {
+}
+
+#inicio .btn-get-started {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -53,28 +54,30 @@
     margin-top: 40px;
     border: 2px solid #f16024;
     color: #fff;
-  }
-  
-  #inicio .btn-get-started:hover {
+}
+
+#inicio .btn-get-started:hover {
     background: #f16024;
-  }
-  
-  @media (min-width: 1024px) {
+}
+/*@media (min-width: 1024px)*/
+@media (min-width: 980px) {
     #inicio {
-      background-attachment: fixed;
+        background-attachment: fixed;
     }
-  }
-  
-  @media (max-width: 768px) {
+}
+/*@media (max-width: 768px)*/
+@media (max-width: 960px) {
     #inicio {
-      height: 100vh;
+        height: 100vh;
     }
+
     #inicio h1 {
-      font-size: 28px;
-      line-height: 36px;
+        font-size: 24px;
+        line-height: 32px;
     }
+
     #inicio h2 {
-      font-size: 24px;
-      line-height: 24px;
+        font-size: 20px;
+        line-height: 20px;
     }
-  }
+}
