@@ -11,7 +11,6 @@ import { HeaderComponent } from './header/header.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { ClientsComponent } from './clients/clients.component';
 import { NuestrosproductosComponent } from './nuestrosproductos/nuestrosproductos.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductoselectricosComponent } from './productoselectricos/productoselectricos.component';
 
@@ -24,7 +23,6 @@ import { ProductoselectricosComponent } from './productoselectricos/productosele
     InicioComponent,
     ClientsComponent,
     NuestrosproductosComponent,
-    NavbarComponent,
     ContactComponent,
     ProductoselectricosComponent
    

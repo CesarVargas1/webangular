@@ -6,7 +6,7 @@
     position: relative;
   }
 
-#inicio:before {
+  #inicio:before {
     content: "";
     background: rgba(45, 53, 69, 0.7);
     position: absolute;
